@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+html,
+button {
+    font-family: 'Roboto Mono', monospace;
+}
+
+html {
+    filter: invert(0);
+    transition-duration: 1000ms;
+    background-color: white;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    height: 100%;
+}
+
+.center {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    transition-duration: 100ms;
+}
+
+
+/* Titles */
+
+#main-title {
+    font-size: 6vh;
+    padding: 10px;
+}
+
+.main-title-container {
+    padding: 2vh;
+    margin-bottom: 2vh;
+}
+
+.page-title {
+    font-size: 40px;
+    padding: 20px;
+}
+
+
+/* Invert Button */
+
+.invertButton {
+    /* Pos */
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    /* Size */
+    height: 100px;
+    width: 100px;
+    /* Color */
+    background-color: white;
+    border: 0;
+    /* Text */
+    font-size: 30px;
+    font-family: 'NotoColorEmoji';
+}
+
+.moon-icon {
+    padding: 5px;
+    width: 60px;
+    height: auto;
+}
+
+
+/* Article */
+
+h3 {
+    text-decoration: bold;
+    font-size: 32px;
+    margin: auto;
+}
+
+.subtitle {
+    margin-left: 20px;
+}
+
+.article {
+    margin: 30px;
+    padding: 20px;
+}
+
+.paragraph {
+    margin-left: 100px;
+    padding: 10px;
+}
+
+
+/* Navbar */
+
+.navbar {
+    width: 100%;
+    /* border-bottom: 1px solid black; */
+    /* border-top: 1px solid black; */
+    justify-items: center;
+    background-color: #eeeeee;
+}
+
+.navbar-button {
+    font-size: 24px;
+    padding: 4px;
+    transition-duration: 200ms;
+    background-color: #eeeeee;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-button:hover {
+    background-color: lightgray;
+}
+
+.vertical-separator {
+    /* border-left: 2px solid black; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* width: 0px; */
+    height: 24px;
+}
+
+
+/* Links */
+
+a {
+    text-decoration: none;
+    color: black;
+}

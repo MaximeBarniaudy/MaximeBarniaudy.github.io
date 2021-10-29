@@ -1,0 +1,97 @@
+<html lang="en" id="document">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+    <title>Maxime Barniaudy</title>
+</head>
+
+<body>
+
+    <!-- General header -->
+
+    <button class="invertButton" onclick="invertColorTheme()"><img class="moon-icon" src="assets/crescent-moon-2.png"></button>
+
+    <div class="main-title-container">
+        <h1 class="center" onclick="selectSection('Main')"><a id="main-title" href="#">> Maxime Barniaudy_</a></h1>
+        <p class="center">Computer Science student at ENSEEIHT in Toulouse, France.</p>
+    </div>
+
+    <div class="center navbar">
+        <div class="navbar-button" onclick="selectSection('Main')"><a href="#">Home</a></div>
+        <div class="vertical-separator">&#x25cf;</div>
+
+        <div class="navbar-button" onclick="selectSection('Career')"><a href="#">Career Development</a></div>
+        <div class="vertical-separator">&#x25cf;</div>
+
+        <div class="navbar-button" onclick="selectSection('Int')"><a href="#">Languages & International Mobility</a></div>
+        <div class="vertical-separator">&#x25cf;</div>
+
+        <div class="navbar-button" onclick="selectSection('Contact')"><a href="#">Contact</a></div>
+    </div>
+
+    <!-- Content -->
+
+    <!-- Main Section -->
+
+    <section id="Main">
+        <h3 class="center page-title">> Home Page</h3>
+        <hr/>
+        <div class="article">
+            <h3 class="subtitle">> About Me</h3>
+            <div class="paragraph">
+                <p>Since middle school, I've had a deep interest in Computer Science, and I hope that I can turn that interest into my job in the future.</p>
+                <p>In high school I found myself a new passion for Japan and its culture, so I started studying Japanese in hope of being able to travel there one day.</p>
+                <p>As of today, I'm pursuing both of these dreams through my studies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Section -->
+
+    <section id="Career" hidden>
+        <h3 class="center page-title">> Career Development</h3>
+        <hr/>
+        <div class="article">
+            <h3 class="subtitle">> Curriculum Vitae</h3>
+            <div class="paragraph"><a href="https://drive.google.com/file/d/1VMOUcEjIUUWj89G3cEWcH1-HN_RmjvbV/view?usp=sharing">> Link</a></div>
+        </div>
+    </section>
+
+    <!-- Int Section -->
+
+    <section id="Int" hidden>
+        <h3 class="center page-title">> Languages & International Mobility</h3>
+        <hr/>
+
+        <div class="article">
+            <h3 class="subtitle">> Languages</h3>
+            <div class="paragraph">
+                <h3 class="subtitle">Spoken : </h3>
+                <p class="paragraph">French (Native), English (Fluent), Italian (Fluent), Spanish</p>
+                <h3 class="subtitle">Learning : </h3>
+                <p class="paragraph">Japanese - Currently learning @ ENSEEIHT</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="Contact" hidden>
+        <h3 class="center page-title">> Contact</h3>
+        <hr/>
+        <div class="article">
+            <h3 class="subtitle">> LinkedIn Profile</h3>
+            <div class="paragraph"><a href="https://www.linkedin.com/in/maxime-barniaudy-b19807222/">> Link</a></div>
+
+            <h3 class="subtitle">> E-Mail</h3>
+            <div class="paragraph">> maxime.barniaudy@etu.toulouse-inp.fr</div>
+        </div>
+    </section>
+</body>
+
+</html>
